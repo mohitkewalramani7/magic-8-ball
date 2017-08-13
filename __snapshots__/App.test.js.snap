@@ -1,0 +1,546 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Individual Screen Components Home Screen renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "flex": 0.1,
+        "fontSize": 35,
+        "marginTop": 30,
+        "textAlign": "center",
+      }
+    }
+  >
+    An Example Of The Magic 8-Ball
+  </Text>
+  <Image
+    source={
+      Object {
+        "uri": "https://www.horoscope.com/images-US/games/game-magic-8-ball-no-text.png",
+      }
+    }
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 250,
+        "width": 250,
+      }
+    }
+  />
+  <View
+    accessibilityComponentType="button"
+    accessibilityLabel={undefined}
+    accessibilityTraits={
+      Array [
+        "button",
+      ]
+    }
+    accessible={true}
+    collapsable={undefined}
+    hitSlop={undefined}
+    isTVSelectable={true}
+    nativeID={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID={undefined}
+    tvParallaxProperties={undefined}
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#0C42FD",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Shake The Ball
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityComponentType="button"
+    accessibilityLabel={undefined}
+    accessibilityTraits={
+      Array [
+        "button",
+      ]
+    }
+    accessible={true}
+    collapsable={undefined}
+    hitSlop={undefined}
+    isTVSelectable={true}
+    nativeID={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID={undefined}
+    tvParallaxProperties={undefined}
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#0C42FD",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        View The Available Options
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Test Individual Screen Components Test Options Screen renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "flex": 0.3,
+        "fontSize": 35,
+        "marginTop": 35,
+        "textAlign": "center",
+      }
+    }
+  >
+     Options For The Magic 8 Ball 
+  </Text>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "color": "#b3ffb3",
+          "key": "It is certain",
+        },
+        Object {
+          "color": "#b3ffb3",
+          "key": "It is decidely so",
+        },
+        Object {
+          "color": "#b3ffb3",
+          "key": "Without a doubt",
+        },
+        Object {
+          "color": "#b3ffb3",
+          "key": "Yes definitely",
+        },
+        Object {
+          "color": "#b3ffb3",
+          "key": "You may rely on it",
+        },
+        Object {
+          "color": "#b3ffb3",
+          "key": "As I see it, yes",
+        },
+        Object {
+          "color": "#b3ffb3",
+          "key": "Most likely",
+        },
+        Object {
+          "color": "#b3ffb3",
+          "key": "Outlook good",
+        },
+        Object {
+          "color": "#b3ffb3",
+          "key": "Yes",
+        },
+        Object {
+          "color": "#b3ffb3",
+          "key": "Signs point to yes",
+        },
+        Object {
+          "color": "#ffff99",
+          "key": "Reply hazy try again",
+        },
+        Object {
+          "color": "#ffff99",
+          "key": "Ask again later",
+        },
+        Object {
+          "color": "#ffff99",
+          "key": "Better not tell you now",
+        },
+        Object {
+          "color": "#ffff99",
+          "key": "Cannot predict now",
+        },
+        Object {
+          "color": "#ffff99",
+          "key": "Concentrate and ask again",
+        },
+        Object {
+          "color": "#ff8080",
+          "key": "Don't count on it",
+        },
+        Object {
+          "color": "#ff8080",
+          "key": "My reply is no",
+        },
+        Object {
+          "color": "#ff8080",
+          "key": "My sources say no",
+        },
+        Object {
+          "color": "#ff8080",
+          "key": "Outlook not so good",
+        },
+        Object {
+          "color": "#ff8080",
+          "key": "Very doubtful",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    onViewableItemsChanged={undefined}
+    renderItem={[Function]}
+    renderScrollComponent={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "flex": 1,
+        "marginBottom": 30,
+        "marginTop": 25,
+      }
+    }
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "backgroundColor": "#b3ffb3",
+              "fontSize": 25,
+              "textAlign": "center",
+            }
+          }
+        >
+          It is certain
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "backgroundColor": "#b3ffb3",
+              "fontSize": 25,
+              "textAlign": "center",
+            }
+          }
+        >
+          It is decidely so
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "backgroundColor": "#b3ffb3",
+              "fontSize": 25,
+              "textAlign": "center",
+            }
+          }
+        >
+          Without a doubt
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "backgroundColor": "#b3ffb3",
+              "fontSize": 25,
+              "textAlign": "center",
+            }
+          }
+        >
+          Yes definitely
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "backgroundColor": "#b3ffb3",
+              "fontSize": 25,
+              "textAlign": "center",
+            }
+          }
+        >
+          You may rely on it
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "backgroundColor": "#b3ffb3",
+              "fontSize": 25,
+              "textAlign": "center",
+            }
+          }
+        >
+          As I see it, yes
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "backgroundColor": "#b3ffb3",
+              "fontSize": 25,
+              "textAlign": "center",
+            }
+          }
+        >
+          Most likely
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "backgroundColor": "#b3ffb3",
+              "fontSize": 25,
+              "textAlign": "center",
+            }
+          }
+        >
+          Outlook good
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "backgroundColor": "#b3ffb3",
+              "fontSize": 25,
+              "textAlign": "center",
+            }
+          }
+        >
+          Yes
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "backgroundColor": "#b3ffb3",
+              "fontSize": 25,
+              "textAlign": "center",
+            }
+          }
+        >
+          Signs point to yes
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "height": 0,
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`Test Individual Screen Components Test Result Screen renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "flex": 0.1,
+        "fontSize": 35,
+        "marginTop": 30,
+        "textAlign": "center",
+      }
+    }
+  >
+    The Magic 8-Ball Says:
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "flex": 0.5,
+        "fontSize": 30,
+        "marginTop": 100,
+        "textAlign": "center",
+      }
+    }
+  >
+    Signs point to yes
+  </Text>
+</View>
+`;

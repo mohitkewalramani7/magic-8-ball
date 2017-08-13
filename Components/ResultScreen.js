@@ -10,7 +10,7 @@
 import React from 'react';
 import {Text, View} from 'react-native';
 
-import styles from '../Stylesheet'
+import styles from '../Stylesheet';
 
 /**
  * The class that implements the ResultScreen
@@ -19,7 +19,7 @@ class ResultScreen extends React.Component {
    
   // Sets the title of the screen
   static navigationOptions = {
-    title: 'The 8-Ball Says:',
+    title: "The 8-Ball Says:",
   };
 
   /**
@@ -47,7 +47,6 @@ class ResultScreen extends React.Component {
     randomIndex = getRandomIndex();
     return optionsArray[randomIndex]
   }
-
 }
 
 /**
@@ -59,26 +58,26 @@ class ResultScreen extends React.Component {
  */
 function constructMessage(){
   optionsArray = new Array(20);
-  optionsArray[0] = 'It is certain';
-  optionsArray[1] = 'It is decidely so';
-  optionsArray[2] = 'Without a doubt';
-  optionsArray[3] = 'Yes definitely';
-  optionsArray[4] = 'You may rely on it';
-  optionsArray[5] = 'As I see it, yes';
-  optionsArray[6] = 'Most likely';
-  optionsArray[7] = 'Outlook good';
-  optionsArray[8] = 'Yes';
-  optionsArray[9] = 'Signs point to yes';
-  optionsArray[10] = 'Reply hazy try again';
-  optionsArray[11] = 'Ask again later';
-  optionsArray[12] = 'Better not tell you now';
-  optionsArray[13] = 'Cannot predict now';
-  optionsArray[14] = 'Concentrate and ask again';
-  optionsArray[15] = 'Don\'t count on it';
-  optionsArray[16] = 'My reply is no';
-  optionsArray[17] = 'My sources say no';
-  optionsArray[18] = 'Outlook not so good';
-  optionsArray[19] = 'Very doubtful';
+  optionsArray[0] = "It is certain";
+  optionsArray[1] = "It is decidely so";
+  optionsArray[2] = "Without a doubt";
+  optionsArray[3] = "Yes definitely";
+  optionsArray[4] = "You may rely on it";
+  optionsArray[5] = "As I see it, yes";
+  optionsArray[6] = "Most likely";
+  optionsArray[7] = "Outlook good";
+  optionsArray[8] = "Yes";
+  optionsArray[9] = "Signs point to yes";
+  optionsArray[10] = "Reply hazy try again";
+  optionsArray[11] = "Ask again later";
+  optionsArray[12] = "Better not tell you now";
+  optionsArray[13] = "Cannot predict now";
+  optionsArray[14] = "Concentrate and ask again";
+  optionsArray[15] = "Don\"t count on it";
+  optionsArray[16] = "My reply is no";
+  optionsArray[17] = "My sources say no";
+  optionsArray[18] = "Outlook not so good";
+  optionsArray[19] = "Very doubtful";
   return optionsArray;
 }
 
@@ -94,5 +93,9 @@ function getRandomIndex(){
   return num;
 }
 
-// Makes the ResultScreen class public
-module.exports = ResultScreen;
+// Makes the ResultScreen class and helper methods public
+module.exports = {
+  resultscreen : ResultScreen, 
+  constructmessage : constructMessage,
+  getrandomindex : getRandomIndex
+}

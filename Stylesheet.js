@@ -12,19 +12,19 @@ const styles = StyleSheet.create({
   container: {
     flex : 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    alignItems: "center",
+    justifyContent: "center",
   },
   title:{
     flex : 0.1,
     fontSize: 35,
-    textAlign: 'center',
+    textAlign: "center",
     marginTop : 30,
   },
   optionsTitle:{
     flex : 0.3,
     fontSize: 35,
-    textAlign: 'center',
+    textAlign: "center",
     marginTop : 35,
   },
   button:{
@@ -38,19 +38,18 @@ const styles = StyleSheet.create({
   listitem:{
     flex: 1,
     fontSize: 25,
-    textAlign: 'center',
-    //backgroundColor: '#cce6ff',
+    textAlign: "center",
   },
   image:{
     width : 250,
     height: 250,
-    alignItems : 'center'
+    alignItems : "center"
   },
   message:{
     flex : 0.5,
     marginTop : 100,
     fontSize: 30,
-    textAlign: 'center'
+    textAlign: "center"
   }
 });
 

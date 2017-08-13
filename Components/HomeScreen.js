@@ -7,9 +7,9 @@
  */
 
 import React from 'react';
-import {Image, Text, View, Button, Alert} from 'react-native';
+import {Image, Text, View, Button} from 'react-native';
 
-import styles from '../Stylesheet'
+import styles from '../Stylesheet';
 
 /**
  * The class that implements the HomeScreen
@@ -27,7 +27,7 @@ class HomeScreen extends React.Component {
    * @return (JSX) The code to render on the screen
    */
   render() {
-    const {navigate} = this.props.navigation;
+
 
     // Object of image displayed on the screen
     let ballImage = {
@@ -40,11 +40,11 @@ class HomeScreen extends React.Component {
         <Image source = {ballImage} style = {styles.image}/>
         <Button style={styles.button}
           title="Shake The Ball"
-          onPress = {()=> navigate('Result')}
+          onPress = {()=> this.props.navigation.navigate('Result')}
         />
         <Button style={styles.button}
           title = "View The Available Options"
-          onPress = {()=> navigate('Options')}
+          onPress = {()=> this.props.navigation.navigate('Options')}
         />
       </View>
     );

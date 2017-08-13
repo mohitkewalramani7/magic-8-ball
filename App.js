@@ -11,7 +11,7 @@ import {StackNavigator} from 'react-navigation';
 
 import HomeScreen from './Components/HomeScreen';
 import OptionsScreen from './Components/OptionsScreen';
-import ResultScreen from './Components/ResultScreen';
+var ResultScreen = require('./Components/ResultScreen').resultscreen;
 
 /**
  * The instance of the StackNavigator which initializes the
@@ -40,7 +40,7 @@ export default class App extends React.Component{
   /**
    * The render method returns the Home screen as
    * declared by the Navigation instance
-   * @return (HTML) The code to render the screen
+   * @return (JSX) The code to render the screen
    */
   render(){
     return(

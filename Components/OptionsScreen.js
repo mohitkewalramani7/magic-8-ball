@@ -9,9 +9,9 @@
  */
 
 import React from 'react';
-import {FlatList, Text, View,} from 'react-native';
+import {FlatList, Text, View} from 'react-native';
 
-import styles from '../Stylesheet'
+import styles from '../Stylesheet';
 
 /**
  * The class that implements the OptionsScreen
